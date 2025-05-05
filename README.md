@@ -72,15 +72,6 @@ aspnetcore-redis-example/
 └── AspNetCoreRedisExample.sln
 ```
 
-## 🧠 Why ``IDistributedCache``?
-
-I used ``IDistributedCache`` for the following reasons:
-
-- It's part of ASP.NET Core's built-in caching abstraction.
-- It's easy to swap out the backend (Redis, SQL Server, etc.).
-- It integrates with Dependency Injection (DI) and is test-friendly.
-- Ideal for distributed apps or scalable microservices.
-
 ## 📬 Example Request
 
 ``GET /weatherforecast``
