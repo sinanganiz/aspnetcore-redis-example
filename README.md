@@ -74,7 +74,7 @@ aspnetcore-redis-example/
 
 ## 📬 Example Request
 
-``GET /weatherforecast``
+``GET /api/WeatherForecast``
 
 ```bash
 curl http://localhost:5000/api/WeatherForecast
